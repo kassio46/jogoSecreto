@@ -13,7 +13,7 @@ function exibirTextoNaTela(tag, texto) {
         window.speechSynthesis.speak(utterance); 
     } else {
         console.log("Web Speech API não suportada neste navegador.");
-    }
+    
 }
 
 function exibirMensagemInicial() {
